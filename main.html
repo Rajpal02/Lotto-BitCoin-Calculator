@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto & Bitcoin</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="setInitialDate()">
+    <div class="main_container">
+        <div class="header">
+            <div class="new-ribbon">NEW</div>
+            <a href="#default" class="logo">Lotto & Bitcoin</a>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="content-header">
+                    The Irish Lotto
+                </div>
+                <p>Since 16th April 1988, the Irish Lotto draw takes place every Saturday at 8pm.
+                On 30th May 1990 an additional Wednesday evening draw was introduced.
+                <br><br>
+                What would EUR 100 in winnings invested on a draw date be worth in Euro now?
+                <br><br>
+                Enter a date and time in the form to get the next draw date and time, with the current 
+                value of your investment.</p>
+            </div>
+            <div>
+                <div class="card_top">
+                    <div class="content-header">
+                        Enter a Date and Time
+                    </div>
+                    <div class="content_cardtop" >
+                        <input id="datetime_input" type="datetime-local">
+                        <button class="header_text" onclick="lottoDate()">SUBMIT</button>
+                    </div>
+                </div>
+                <div class="card_bottom">
+                    <table id="content-table" width="100%" class="table">
+                        <thead><tr>
+                            <th>DRAW DATE/TIME</th>
+                            <th>YOUR BITCOIN'S VALUE</th>
+                        </tr></thead>
+                        <tbody class="header_text"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
