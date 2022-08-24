@@ -8,3 +8,5 @@ JavasScript - main.js
 
 
 Open and main.html file in any browser
+
+Bitcoin's Value = (100/(Calculated Next Lotto Draw Date)) * Current Date
